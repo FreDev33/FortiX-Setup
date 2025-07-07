@@ -1,20 +1,34 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-echo "=============================="
-echo " FortiX - Personalización Base "
-echo "=============================="
+echo "🚀 Iniciando FortiX Setup..."
 
-sudo apt update
+# ------------------------------
+# BLOQUE 1️⃣: QUITAR PAQUETES
+echo "🧹 Quitando paquetes innecesarios..."
+sudo apt-get remove nombre1 nombre2 nombre3 -y
+sudo apt-get autoremove -y
 
-echo "Quitando paquetes innecesarios..."
-sudo apt remove --purge gnome-mahjongg leafpad geany -y
-sudo apt autoremove -y
+# ------------------------------
+# BLOQUE 2️⃣: AGREGAR PAQUETES
+echo "📦 Instalando paquetes importantes..."
+sudo apt-get update
+sudo apt-get install paquete1 paquete2 paquete3 -y
 
-echo "Instalando Papirus y Audacity..."
-sudo apt install papirus-icon-theme audacity -y
+# ------------------------------
+# BLOQUE 3️⃣: LIMPIEZA WALLPAPERS + COPIA
+echo "🧹 Limpiando wallpapers antiguos..."
+sudo rm -rf /usr/share/wallpaper/*
+sudo rm -rf /usr/share/wallpaper/grub/*
 
-echo "Copiando wallpapers..."
-sudo cp -r wallpapers/* /usr/share/wallpapers/
+echo "📂 Copiando nuevos wallpapers FortiX..."
+sudo cp -r ./wallpapers/* /usr/share/wallpaper/
+sudo cp -r ./wallpapers/* /usr/share/wallpaper/grub/
 
-echo "Copiando iconos..."
-sudo cp -r icons/* /usr/share/icons/
+# ------------------------------
+# BLOQUE 4️⃣: OPCIONAL - ICONOS
+# echo "🎨 Aplicando tema de iconos Contraste Alto..."
+# sudo apt-get install papirus-icon-theme -y
+
+# ------------------------------
+# BLOQUE ✅ FINAL
+echo "✅ FortiX Setup completado. ¡Disfrutá tu distro personalizada!
