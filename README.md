@@ -4,7 +4,7 @@
 [![Build](https://img.shields.io/badge/Build-Stable-brightgreen)](#)
 
 <p align="center">
-  <img src="./branding/fortix_logo-transparente1.png" alt="FortiX Logo" width="200"/>
+  <img src="./branding/fortix_logo-transparente2.png" alt="FortiX Logo" width="200"/>
 </p>
 
 Setup script para personalizar tu FortiX 🐧✨  
