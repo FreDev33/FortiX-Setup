@@ -3,6 +3,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Build](https://img.shields.io/badge/Build-Stable-brightgreen)](#)
 
+<p align="center">
+  <img src="./branding/fortix_logo-transparente1.png" alt="FortiX Logo" width="200"/>
+</p>
 
 Setup script para personalizar tu FortiX 🐧✨  
 Incluye bloques para remover/instalar paquetes y personalizar branding.
