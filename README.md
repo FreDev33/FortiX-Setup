@@ -1,3 +1,11 @@
+# 🛡️ FortiX Setup
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build](https://img.shields.io/badge/Build-Stable-brightgreen)](#)
+
+Setup script para personalizar tu FortiX 🐧✨  
+Incluye bloques para remover/instalar paquetes y personalizar branding.
+
 # 🚀 FortiX-Setup
 
 FortiX-Setup es un script `setup.sh` que automatiza la configuración inicial de tu distro **FortiX** basada en antiX.  
